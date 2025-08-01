@@ -1,0 +1,18 @@
+/* Add top padding to prevent content from being hidden under fixed header */
+.app-bg {
+  padding-top: 80px;
+}
+/* App background gradient */
+.app-bg {
+  background: linear-gradient(135deg, #232526 0%, #414345 100%);
+  min-height: 100vh;
+}
+
+/* Beautiful footer styles */
+.footer {
+  background: linear-gradient(90deg, #18191a 0%, #232526 100%);
+  box-shadow: 0 -2px 16px #0002;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  text-shadow: 0 1px 6px #000a, 0 0px 1px #fff2;
+}
